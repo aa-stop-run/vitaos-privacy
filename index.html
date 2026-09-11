@@ -1,128 +1,127 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Política de Privacidade — VitaOS</title>
-<meta name="description" content="Política de privacidade do VitaOS: aplicação local-first, sem servidores, sem telemetria e sem rastreamento.">
+<meta name="vitaos-fonte" content="36643c40cbc70ec82a4847170aec88062399596ca122a37a101c82621c00fa0a">
+<title>VitaOS Privacy Policy</title>
+<meta name="description" content="VitaOS privacy policy: a local-first app with no servers, no telemetry and no tracking.">
+<link rel="alternate" hreflang="en" href="https://aa-stop-run.github.io/vitaos-privacy/">
+<link rel="alternate" hreflang="pt" href="https://aa-stop-run.github.io/vitaos-privacy/pt/">
+<link rel="alternate" hreflang="es" href="https://aa-stop-run.github.io/vitaos-privacy/es/">
+<link rel="alternate" hreflang="de" href="https://aa-stop-run.github.io/vitaos-privacy/de/">
+<link rel="alternate" hreflang="fr" href="https://aa-stop-run.github.io/vitaos-privacy/fr/">
+<link rel="alternate" hreflang="x-default" href="https://aa-stop-run.github.io/vitaos-privacy/">
 <style>
-  :root {
-    --ground: #ffffff;
-    --ink: #16181d;
-    --ink-soft: #4a4f5a;
-    --rule: #e3e5ea;
-    --accent: #00794a;
-    --card: #f6f7f9;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --ground: #101216;
-      --ink: #e8eaee;
-      --ink-soft: #a2a8b4;
-      --rule: #262a31;
-      --accent: #35d68f;
-      --card: #171a20;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--ground);
-    color: var(--ink);
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    -webkit-text-size-adjust: 100%;
-  }
-  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
-  h1 { font-size: clamp(1.6rem, 1.2rem + 2vw, 2.3rem); line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
-  .updated { color: var(--ink-soft); font-size: .9rem; margin: 0 0 2rem; }
-  .lede { font-size: 1.08rem; color: var(--ink); border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0 0 2.5rem; }
-  h2 { font-size: 1.15rem; margin: 2.75rem 0 .75rem; letter-spacing: -.01em; }
-  h2 .n { color: var(--accent); font-variant-numeric: tabular-nums; margin-right: .5rem; }
-  ul { padding-left: 1.15rem; margin: 0 0 1rem; }
-  li { margin: .5rem 0; }
-  code { background: var(--card); padding: .12em .4em; border-radius: 4px; font-size: .88em; }
-  .table-wrap { overflow-x: auto; margin: 1rem 0 1.5rem; }
-  table { border-collapse: collapse; width: 100%; min-width: 32rem; font-size: .94rem; }
-  th, td { text-align: left; padding: .7rem .8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
-  th { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
-  td code { white-space: nowrap; }
-  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0 2rem; }
-  footer { color: var(--ink-soft); font-size: .93rem; }
-  footer a { color: var(--accent); }
-  .note { color: var(--ink-soft); font-size: .9rem; font-style: italic; }
-  strong { font-weight: 650; }
+  :root{--ground:#ffffff;--ink:#16181d;--ink-soft:#4a4f5a;--rule:#e3e5ea;--accent:#00794a;--card:#f6f7f9}
+  @media (prefers-color-scheme: dark){:root{--ground:#101216;--ink:#e8eaee;--ink-soft:#a2a8b4;--rule:#262a31;--accent:#35d68f;--card:#171a20}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+  main{max-width:46rem;margin:0 auto;padding:2rem 1.25rem 5rem}
+  nav.linguas{display:flex;flex-wrap:wrap;gap:.35rem 1rem;margin:0 0 2.5rem;padding-bottom:.9rem;border-bottom:1px solid var(--rule);font-size:.92rem}
+  nav.linguas a{color:var(--ink-soft);text-decoration:none}
+  nav.linguas a:hover{color:var(--accent);text-decoration:underline}
+  nav.linguas a[aria-current="page"]{color:var(--ink);font-weight:650}
+  h1{font-size:clamp(1.6rem,1.2rem + 2vw,2.3rem);line-height:1.2;margin:0 0 .4rem;letter-spacing:-.02em}
+  .updated{color:var(--ink-soft);font-size:.9rem;margin:0 0 2rem}
+  .lede{font-size:1.08rem;border-left:3px solid var(--accent);padding-left:1rem;margin:0 0 2.5rem}
+  h2{font-size:1.15rem;margin:2.75rem 0 .75rem;letter-spacing:-.01em}
+  h2 .n{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:.5rem}
+  ul{padding-left:1.15rem;margin:0 0 1rem}
+  li{margin:.5rem 0}
+  code{background:var(--card);padding:.12em .4em;border-radius:4px;font-size:.88em;overflow-wrap:anywhere}
+  .table-wrap{overflow-x:auto;margin:1rem 0 1.5rem}
+  table{border-collapse:collapse;width:100%;min-width:32rem;font-size:.94rem}
+  th,td{text-align:left;padding:.7rem .8rem;border-bottom:1px solid var(--rule);vertical-align:top}
+  th{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft)}
+  td:first-child{width:38%}
+  hr{border:0;border-top:1px solid var(--rule);margin:3rem 0 2rem}
+  footer{color:var(--ink-soft);font-size:.93rem}
+  footer a{color:var(--accent)}
+  strong{font-weight:650}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style>
 </head>
 <body>
 <main>
 
-<h1>Política de Privacidade do VitaOS</h1>
-<p class="updated">Última atualização: 11 de Setembro de 2026</p>
+<nav class="linguas" aria-label="This policy in other languages"><a href="./" hreflang="en" lang="en" aria-current="page">English</a> <a href="pt/" hreflang="pt" lang="pt">Português</a> <a href="es/" hreflang="es" lang="es">Español</a> <a href="de/" hreflang="de" lang="de">Deutsch</a> <a href="fr/" hreflang="fr" lang="fr">Français</a></nav>
 
-<p class="lede">O <strong>VitaOS</strong> foi concebido de raiz tendo a <strong>privacidade absoluta</strong> e a <strong>soberania dos teus dados</strong> como princípios fundamentais.</p>
+<h1>VitaOS Privacy Policy</h1>
+<p class="updated">Last updated: 11 September 2026</p>
 
-<h2><span class="n">1.</span>Arquitetura 100% Local-First (Offline)</h2>
+<p class="lede"><strong>VitaOS</strong> was designed from the ground up with <strong>absolute privacy</strong> and <strong>ownership of your data</strong> as its founding principles.</p>
+
+<h2><span class="n">1.</span>100% local-first architecture (offline)</h2>
+
 <ul>
-  <li>O VitaOS <strong>não tem servidores remotos</strong>, não tem base de dados na nuvem e não faz qualquer telemetria ou rastreamento.</li>
-  <li>Todos os teus dados — incluindo saldos financeiros, transações, rotinas de treino, consultas médicas, medicamentos, veículos e documentos de cidadania — são guardados exclusivamente no teu dispositivo, através de uma base de dados local <strong>SQLite</strong>.</li>
-  <li>Todas as funcionalidades da app funcionam offline. O <strong>único</strong> acesso à rede é o da Google Play Billing, usado exclusivamente para processar compras do VitaOS Pro — e nenhum dado teu passa por lá.</li>
-  <li>O backup automático para a nuvem da Google está desativado (<code>android:allowBackup="false"</code>), garantindo que os dados não são sincronizados para o Google Drive sem o teu conhecimento. Como consequência, os dados <strong>não seguem sozinhos para um telemóvel novo</strong> — usa Definições → <em>Mudar de telemóvel</em> para levar contigo o ficheiro de cópia.</li>
-  <li>A base de dados fica no armazenamento privado da app, inacessível a outras aplicações. <strong>Não é encriptada</strong>: a proteção vem de os dados nunca saírem do telemóvel, e não de cifra.</li>
+  <li>VitaOS <strong>has no remote servers</strong>, no cloud database, and no telemetry or tracking of any kind.</li>
+  <li>All your data — including account balances, transactions, workout routines, medical appointments, medications, vehicles and identity documents — is stored only on your device, in a local <strong>SQLite</strong> database.</li>
+  <li>Every feature of the app works offline. The <strong>only</strong> network access is Google Play Billing, used solely to process VitaOS Pro purchases — and none of your data goes through it.</li>
+  <li>Google's automatic cloud backup is turned off (<code>android:allowBackup=&quot;false&quot;</code>), so your data is never synced to Google Drive without your knowledge. As a result, your data <strong>does not move to a new phone by itself</strong> — use <em>Settings → Change phone</em> to take your backup file with you.</li>
+  <li>The database lives in the app's private storage, out of reach of other apps. <strong>It is not encrypted</strong>: the protection comes from the data never leaving your phone, not from encryption.</li>
 </ul>
 
-<h2><span class="n">2.</span>Sem Rastreamento de Terceiros nem Publicidade</h2>
+<h2><span class="n">2.</span>No third-party tracking, no advertising</h2>
+
 <ul>
-  <li>O VitaOS não inclui anúncios publicitários (zero AdMob ou redes de anúncios).</li>
-  <li>O VitaOS não inclui ferramentas de rastreamento comportamental nem analítica invasiva.</li>
+  <li>VitaOS contains no ads (no AdMob or any other ad network).</li>
+  <li>VitaOS contains no behavioural tracking tools and no invasive analytics.</li>
 </ul>
 
-<h2><span class="n">3.</span>Faturação e Pagamentos Oficiais</h2>
+<h2><span class="n">3.</span>Billing and payments</h2>
+
 <ul>
-  <li>As compras opcionais de subscrição ou licença do <strong>VitaOS Pro</strong> são processadas exclusivamente pelo serviço oficial <strong>Google Play Billing</strong>.</li>
-  <li>A tua informação de pagamento (cartões de crédito, MB Way, PayPal) é tratada diretamente e de forma segura pela Google Play. O VitaOS nunca acede nem armazena quaisquer números de cartão ou credenciais bancárias.</li>
+  <li>Optional <strong>VitaOS Pro</strong> subscription or licence purchases are processed solely by the official <strong>Google Play Billing</strong> service.</li>
+  <li>Your payment details (credit cards, PayPal, MB Way) are handled directly and securely by Google Play. VitaOS never accesses or stores any card numbers or banking credentials.</li>
 </ul>
 
-<h2><span class="n">4.</span>Permissões do Dispositivo</h2>
+<h2><span class="n">4.</span>Device permissions</h2>
+
 <ul>
-  <li><strong>Sem permissões de armazenamento perigosas</strong>: o VitaOS não pede acesso ao armazenamento global do dispositivo. As exportações em CSV e JSON seguem para a folha de partilha nativa do Android, onde escolhes onde guardar o ficheiro.</li>
-  <li><strong>Segurança com código PIN</strong>: o bloqueio opcional usa um PIN protegido por <strong>PBKDF2-HMAC-SHA256 com salt aleatório gerado por instalação</strong>, com limite de tentativas, bloqueio escalonado e bloqueio automático quando a app é suspensa. O PIN nunca sai do dispositivo, nem sequer nos ficheiros de cópia de segurança.</li>
+  <li><strong>No dangerous storage permissions</strong>: VitaOS does not ask for access to your device's shared storage. CSV and JSON exports go to Android's native share sheet, where you choose where to save the file.</li>
+  <li><strong>PIN protection</strong>: the optional lock uses a PIN protected with <strong>PBKDF2-HMAC-SHA256 and a random salt generated per installation</strong>, with an attempt limit, escalating lockouts and automatic locking when the app goes to the background. The PIN never leaves the device — not even in backup files.</li>
 </ul>
 
-<p>Estas são <strong>todas</strong> as permissões que a aplicação declara, sem exceção:</p>
+<p>These are <strong>all</strong> the permissions the app declares, without exception:</p>
 
 <div class="table-wrap">
 <table>
-  <thead><tr><th>Permissão</th><th>Para que serve</th></tr></thead>
+  <thead><tr><th>Permission</th><th>What it is for</th></tr></thead>
   <tbody>
-    <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td><td>Exigidas pela biblioteca da Google Play Billing. Não são usadas por código do VitaOS: a app não tem cliente HTTP nem faz pedidos de rede próprios.</td></tr>
-    <tr><td><code>POST_NOTIFICATIONS</code></td><td>Mostrar os lembretes locais. Só é pedida no momento em que ligas os lembretes nas Definições, e recusá-la não afeta mais nada na app.</td></tr>
-    <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Repor os lembretes já agendados depois de reiniciares o telemóvel.</td></tr>
-    <tr><td><code>VIBRATE</code></td><td>Vibração das notificações, exigida pela biblioteca de notificações.</td></tr>
+    <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td><td>Required by the Google Play Billing library. They are not used by VitaOS's own code: the app has no HTTP client and makes no network requests of its own.</td></tr>
+    <tr><td><code>com.android.vending.BILLING</code></td><td>Buying VitaOS Pro through Google Play. Required by the Google Play Billing library.</td></tr>
+    <tr><td><code>POST_NOTIFICATIONS</code></td><td>Showing local reminders. Only requested when you turn reminders on in Settings, and declining it affects nothing else in the app.</td></tr>
+    <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Restoring already-scheduled reminders after you restart your phone.</td></tr>
+    <tr><td><code>VIBRATE</code></td><td>Notification vibration, required by the notifications library.</td></tr>
+    <tr><td><code>com.aastoprun.vitaos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code></td><td>Internal: only VitaOS itself can hold it, and it stops other apps from sending messages to the app's internal components. Added by the AndroidX library; it grants no access to anything on your phone.</td></tr>
   </tbody>
 </table>
 </div>
 
-<h2><span class="n">5.</span>Lembretes Locais</h2>
+<h2><span class="n">5.</span>Local reminders</h2>
+
 <ul>
-  <li>Os lembretes são gerados <strong>no teu telemóvel</strong>, a partir dos dados que lá estão. Nada é enviado para lado nenhum para os produzir, e não existe nenhum servidor de notificações envolvido.</li>
-  <li>Estão <strong>desligados por omissão</strong>. Só existem depois de os ligares em Definições → <em>Lembretes</em>, e desligá-los cancela imediatamente tudo o que estivesse agendado.</li>
-  <li><strong>Os lembretes de medicação são marcados como privados</strong>: num ecrã de bloqueio protegido (PIN, padrão ou biometria), o Android esconde o conteúdo e mostra apenas que há uma notificação. Isto evita que o nome de um medicamento fique à vista de quem esteja ao lado. Num telemóvel <strong>sem</strong> bloqueio configurado, o sistema mostra o conteúdo e não há nada que a aplicação possa fazer quanto a isso.</li>
-  <li>Os lembretes de prazos, consultas e documentos não incluem no texto o número de documentos de identificação, o nome do médico, a especialidade da consulta nem as notas que tenhas escrito.</li>
-  <li>Por opção deliberada, os lembretes usam alarmes <strong>inexatos</strong>: a hora pode variar alguns minutos, em troca de não gastar bateria e de não pedir permissões restritas. Não devem ser usados como única forma de te lembrares de uma toma.</li>
+  <li>Reminders are created <strong>on your phone</strong>, from the data stored there. Nothing is sent anywhere to produce them, and no notification server is involved.</li>
+  <li>They are <strong>off by default</strong>. They only exist once you turn them on in <em>Settings → Reminders</em>, and turning them off immediately cancels everything that was scheduled.</li>
+  <li><strong>Medication reminders are marked as private</strong>: on a secured lock screen (PIN, pattern, fingerprint or face), Android hides their content and only shows that there is a notification. This keeps the name of a medicine out of sight of anyone nearby. On a phone <strong>without</strong> a screen lock, the system shows the content, and there is nothing the app can do about that.</li>
+  <li>Reminders for deadlines, appointments and documents never include in their text the number of an identity document, the doctor's name, the medical specialty or any notes you have written.</li>
+  <li>By deliberate choice, reminders use <strong>inexact</strong> alarms: the time can shift by a few minutes, in exchange for saving battery and not asking for restricted permissions. They should not be your only way of remembering to take a dose.</li>
 </ul>
 
-<h2><span class="n">6.</span>Os Teus Dados Pertencem-te</h2>
+<h2><span class="n">6.</span>Your data belongs to you</h2>
+
 <ul>
-  <li>Podes a qualquer momento exportar uma cópia integral dos teus dados em JSON através do menu Definições. Com o VitaOS Pro, podes também exportá-los em CSV.</li>
-  <li>Podes restaurar um backup JSON previamente exportado.</li>
-  <li>Podes a qualquer momento eliminar permanentemente toda a informação do dispositivo em <em>“Apagar Todos os Dados”</em>.</li>
+  <li>You can export a complete copy of your data in JSON from Settings at any time. With VitaOS Pro, you can also export it as CSV.</li>
+  <li>You can restore a previously exported JSON backup.</li>
+  <li>You can permanently delete all information from the device at any time with <em>Settings → Clear All Data</em>.</li>
 </ul>
 
 <hr>
 
 <footer>
-  <p><strong>Contacto</strong><br>
-  Para qualquer dúvida ou questão de suporte relativa ao VitaOS ou a esta política de privacidade:<br>
+  <p><strong>Contact</strong><br>
+  For any question or support request about VitaOS or this privacy policy:<br>
   <a href="mailto:xsavior.labs@outlook.com">xsavior.labs@outlook.com</a></p>
 </footer>
 
