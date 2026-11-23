@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="vitaos-fonte" content="add49fcb0c100def50045d3ccc10f064c9c04ad532b292495434340fe541c694">
+<meta name="vitaos-fonte" content="1100bdbdba507019d08d0f4ef1f8d5cb615dab5204bbee418177e8314e6390c9">
 <title>VitaOS Privacy Policy</title>
 <meta name="description" content="VitaOS privacy policy: a local-first app with no servers, no telemetry and no tracking.">
 <link rel="alternate" hreflang="en" href="https://aa-stop-run.github.io/vitaos-privacy/">
@@ -48,7 +48,7 @@
 <nav class="linguas" aria-label="This policy in other languages"><a href="./" hreflang="en" lang="en" aria-current="page">English</a> <a href="pt/" hreflang="pt" lang="pt">Português</a> <a href="es/" hreflang="es" lang="es">Español</a> <a href="de/" hreflang="de" lang="de">Deutsch</a> <a href="fr/" hreflang="fr" lang="fr">Français</a></nav>
 
 <h1>VitaOS Privacy Policy</h1>
-<p class="updated">Last updated: 12 September 2026</p>
+<p class="updated">Last updated: 23 November 2026</p>
 
 <p class="lede"><strong>VitaOS</strong> was designed from the ground up with <strong>absolute privacy</strong> and <strong>ownership of your data</strong> as its founding principles.</p>
 
@@ -57,7 +57,7 @@
 <ul>
   <li>VitaOS <strong>has no remote servers</strong>, no cloud database, and no telemetry or tracking of any kind.</li>
   <li>All your data — including account balances, transactions, workout routines, vehicles and identity documents — is stored only on your device, in a local <strong>SQLite</strong> database.</li>
-  <li>Every feature of the app works offline. The <strong>only</strong> network access is Google Play Billing, used solely to process VitaOS Pro purchases — and none of your data goes through it.</li>
+  <li>Every feature of the app works offline: VitaOS makes no network connections of any kind, and no data leaves your phone unless you choose to share an export.</li>
   <li>Google's automatic cloud backup is turned off (<code>android:allowBackup=&quot;false&quot;</code>), so your data is never synced to Google Drive without your knowledge. As a result, your data <strong>does not move to a new phone by itself</strong> — use <em>Settings → Change phone</em> to take your backup file with you.</li>
   <li>The database lives in the app's private storage, out of reach of other apps. <strong>It is not encrypted</strong>: the protection comes from the data never leaving your phone, not from encryption.</li>
 </ul>
@@ -69,14 +69,7 @@
   <li>VitaOS contains no behavioural tracking tools and no invasive analytics.</li>
 </ul>
 
-<h2><span class="n">3.</span>Billing and payments</h2>
-
-<ul>
-  <li>Optional <strong>VitaOS Pro</strong> subscription or licence purchases are processed solely by the official <strong>Google Play Billing</strong> service.</li>
-  <li>Your payment details (credit cards, PayPal, MB Way) are handled directly and securely by Google Play. VitaOS never accesses or stores any card numbers or banking credentials.</li>
-</ul>
-
-<h2><span class="n">4.</span>Device permissions</h2>
+<h2><span class="n">3.</span>Device permissions</h2>
 
 <ul>
   <li><strong>No dangerous storage permissions</strong>: VitaOS does not ask for access to your device's shared storage. CSV and JSON exports go to Android's native share sheet, where you choose where to save the file.</li>
@@ -89,8 +82,6 @@
 <table>
   <thead><tr><th>Permission</th><th>What it is for</th></tr></thead>
   <tbody>
-    <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td><td>Required by the Google Play Billing library. They are not used by VitaOS's own code: the app has no HTTP client and makes no network requests of its own.</td></tr>
-    <tr><td><code>com.android.vending.BILLING</code></td><td>Buying VitaOS Pro through Google Play. Required by the Google Play Billing library.</td></tr>
     <tr><td><code>POST_NOTIFICATIONS</code></td><td>Showing local reminders. Only requested when you turn reminders on in Settings, and declining it affects nothing else in the app.</td></tr>
     <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Restoring already-scheduled reminders after you restart your phone.</td></tr>
     <tr><td><code>VIBRATE</code></td><td>Notification vibration, required by the notifications library.</td></tr>
@@ -99,7 +90,7 @@
 </table>
 </div>
 
-<h2><span class="n">5.</span>Local reminders</h2>
+<h2><span class="n">4.</span>Local reminders</h2>
 
 <ul>
   <li>Reminders are created <strong>on your phone</strong>, from the data stored there. Nothing is sent anywhere to produce them, and no notification server is involved.</li>
@@ -108,10 +99,10 @@
   <li>By deliberate choice, reminders use <strong>inexact</strong> alarms: the time can shift by a few minutes, in exchange for saving battery and not asking for restricted permissions. They should not be your only way of remembering something that matters.</li>
 </ul>
 
-<h2><span class="n">6.</span>Your data belongs to you</h2>
+<h2><span class="n">5.</span>Your data belongs to you</h2>
 
 <ul>
-  <li>You can export a complete copy of your data in JSON from Settings at any time. With VitaOS Pro, you can also export it as CSV.</li>
+  <li>You can export a complete copy of your data in JSON or CSV from Settings at any time.</li>
   <li>You can restore a previously exported JSON backup.</li>
   <li>You can permanently delete all information from the device at any time with <em>Settings → Clear All Data</em>.</li>
 </ul>
